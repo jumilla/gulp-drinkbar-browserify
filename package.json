@@ -1,0 +1,47 @@
+{
+  "name": "gulp-drinkbar-browserify-stream",
+  "version": "0.1.0",
+  "author": {
+    "name": "Fumio Furukawa"
+  },
+  "description": "browserify recipe for gulp-drinkbar",
+  "license": "MIT",
+  "keywords": [
+    "gulp",
+    "gulp-drinkbar",
+    "browserify"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jumilla/gulp-drinkbar-browserify.git"
+  },
+  "homepage": "https://github.com/jumilla/gulp-drinkbar-browserify",
+  "bugs": {
+    "url": "https://github.com/jumilla/gulp-drinkbar-browserify/issues"
+  },
+  "maintainers": [
+    {
+      "email": "fumio@jumilla.me",
+      "name": "Fumio Furukawa"
+    }
+  ],
+  "dependencies": {
+    "babelify": "^7.3.0",
+    "browserify": "^13.0.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.10.1",
+    "chai": "^3.5.0",
+    "gulp": "^3.9.1",
+    "mocha": "^2.5.3"
+  },
+  "scripts": {
+    "build": "babel src -d . --source-maps-inline",
+    "watch": "babel src -d . --source-maps-inline --watch",
+    "test": "mocha --compilers js:babel-core/register"
+  },
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js"
+}
