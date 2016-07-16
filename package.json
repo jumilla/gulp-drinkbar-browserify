@@ -1,10 +1,10 @@
 {
   "name": "gulp-drinkbar-browserify-stream",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": {
     "name": "Fumio Furukawa"
   },
-  "description": "browserify recipe for gulp-drinkbar",
+  "description": "browserify stream for gulp-drinkbar",
   "license": "MIT",
   "keywords": [
     "gulp",
