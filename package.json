@@ -1,6 +1,6 @@
 {
   "name": "gulp-drinkbar-browserify",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": {
     "name": "Fumio Furukawa"
   },
@@ -42,7 +42,9 @@
     "test": "mocha --compilers js:babel-core/register"
   },
   "files": [
-    "index.js"
+    "index.js",
+    "src"
   ],
-  "main": "index.js"
+  "main": "index.js",
+  "jsnext:main": "src/index.js"
 }
